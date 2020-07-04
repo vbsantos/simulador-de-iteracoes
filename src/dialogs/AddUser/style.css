@@ -1,0 +1,54 @@
+div#AddUserDialogComponent {
+  width: 500px;
+}
+
+section {
+  margin-top: 10px;
+  width: 400px;
+  padding: 0;
+}
+
+form p {
+  padding: 0;
+  margin: 0;
+}
+
+section.inline1 {
+  display: flex;
+  justify-content: space-between;
+}
+section.inline1 p {
+  padding: 0;
+  width: 40%;
+  margin: 2px;
+  line-height: 30px;
+  height: 29px;
+}
+section.inline1 input {
+  padding: 1px;
+  width: 50%;
+  height: 29px;
+}
+
+section.inline2 {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+section.inline2 p {
+  padding: 0;
+  width: 100%;
+  margin: 2px;
+  line-height: 30px;
+  height: 29px;
+}
+section.inline2 p span {
+  cursor: pointer;
+  color: blue;
+}
+section.inline2 input {
+  text-align: center;
+  padding: 0;
+  width: 44px;
+  height: 29px;
+}

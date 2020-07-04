@@ -1,0 +1,13 @@
+#ButtonsComponent {
+  display: flex;
+  justify-content: space-around;
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#ButtonsComponent Button {
+  font-size: 14px;
+  min-width: 25%;
+  max-width: 33%;
+}

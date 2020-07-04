@@ -1,0 +1,37 @@
+#TableComponent {
+  max-width: 900px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+#TableComponent .MuiTableCell-head {
+  background-color: rgb(31, 31, 31);
+  color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
+}
+
+#TableComponent .MuiTableCell-body {
+  padding: 1px 0px;
+  cursor: pointer;
+}
+#TableComponent .MuiTableCell-root {
+  border: 1px rgba(50, 50, 50, 0.5) solid;
+}
+
+#TableComponent .MuiTableCell-body.maior {
+  background-color: rgba(0, 80, 255, 0.5);
+}
+
+#TableComponent .MuiTableCell-body.menor {
+  background-color: rgba(255, 80, 0, 0.5);
+}
+
+#TableComponent .MuiTableRow-root.selected {
+  background-color: rgb(255, 255, 80, 0.6);
+}
+
+#TableComponent .MuiTableRow-root.selected * {
+  color: #f50057;
+  font-style: italic;
+}

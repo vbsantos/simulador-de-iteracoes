@@ -1,0 +1,23 @@
+section.inline3 {
+  display: flex;
+  justify-content: space-between;
+}
+section.inline3 p {
+  padding: 0;
+  width: 75%;
+  margin: 2px;
+  line-height: 30px;
+  height: 29px;
+}
+section.inline3 input {
+  padding: 1px;
+  width: 20%;
+  height: 29px;
+}
+
+div.MuiDialogActions-root {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
